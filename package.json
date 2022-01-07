@@ -1,8 +1,8 @@
 {
-  "name": "git_modulize_manager",
+  "name": "universal_tool",
   "version": "0.0.1",
-  "author": "Yongyu Chen <2224902862@qq.com>",
-  "description": "Git modulize manager(GMM)",
+  "author": "Trick",
+  "description": "A tool for anything.",
   "license": "BSD-2-Clause",
   "main": "./dist/electron/main.js",
   "scripts": {
@@ -20,8 +20,8 @@
     "rebuild": "electron-rebuild -f -w win-mouse"
   },
   "build": {
-    "productName": "git_modulize_manager",
-    "appId": "com.baison.gmm",
+    "productName": "universal_tool",
+    "appId": "com.universal.gool",
     "directories": {
       "output": "build/bin"
     },
@@ -49,13 +49,10 @@
       ]
     },
     "mac": {
-      "icon": "build/icons/icon.icns"
+      "icon": "build/icons/img_icon"
     },
     "win": {
-      "icon": "build/icons/icon.ico"
-    },
-    "linux": {
-      "icon": "build/icons"
+      "icon": "build/icons/img_icon"
     },
     "asar": false
   },

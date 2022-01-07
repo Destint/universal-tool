@@ -1,4 +1,4 @@
-﻿# Git modulize manager(GMM)
+﻿# A tool for anything.
 
 > An electron-vue project. Used for modulizing Git repository and managing these modules.
 
